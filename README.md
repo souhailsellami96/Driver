@@ -15,7 +15,7 @@ To build and run this app locally you will need a few things:
 ## Clone the repository
  git clone  https://github.com/souhailsellami96/Driver.git
 ## Install dependencies
- ### cd <project_name>
+ cd <project_name>
  ` npm install `
  ### Link It Globally
  ` npm link `
@@ -36,7 +36,6 @@ To build and run this app locally you will need a few things:
 npm start 
 ### Labforward CLI:
  `Usage: labforward [global options] command
-
 Options:
   -v, --vers           output the current version
   -h, --help           display help for command
