@@ -1,0 +1,28 @@
+{
+  "name": "labforward-driver",
+  "version": "1.0.0",
+  "description": "Driver to retrieve data from the device",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node app.js"
+  },
+  "keywords": [
+    "nodejs",
+    "driver",
+    "IoT"
+  ],
+  "author": "Souhail Sellami",
+  "license": "ISC",
+  "preferGlobal": true,
+  "bin": {
+    "labforward": "./app.js"
+  },
+  "dependencies": {
+    "commander": "^8.1.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "jest": "^27.0.6",
+    "mqtt": "^4.2.8"
+  }
+}
