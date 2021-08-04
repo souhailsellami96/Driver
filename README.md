@@ -33,7 +33,7 @@ To build and run this app locally you will need a few things:
  intMQPort=1883
 ```
 # Run the project
-npm start 
+labforward  
 ### Labforward CLI:
 
  `Commands:` 
