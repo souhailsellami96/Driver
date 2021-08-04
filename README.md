@@ -35,26 +35,13 @@ To build and run this app locally you will need a few things:
 # Run the project
 npm start 
 ### Labforward CLI:
- `Usage: labforward [global options] command
-Options:
-  -v, --vers           output the current version
-  -h, --help           display help for command
 
-Commands:
-  send|s <param_name>  Read a paramter value
-  restart|rs           Restart device
-  error|e              Read latest error code
-  help [command]       display help for command
-
-
-Function                       Alias        Description
-
-version                        -v           To check the version of the labforward cli
-labforward send <param_name>   s            To read current value  for a parameter from 
-                                            device  eg : Temperature-F , Temperature-C, Humidity
-labforward restart             rs           To initate device retart
-labforward  error               e           To get latest error code
- `
+ `Commands:` 
+   * labforward s Temperature-F : provides current temp in Fahrenheit
+   * labforward s Temperature-C: provides current temp in Celcius
+   * labforward s Humidity : provides Humidity
+ 
+ 
 # Why testing ?
 Testing allows us to refactor,maintain and expect alias.
 
